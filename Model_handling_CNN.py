@@ -34,7 +34,7 @@ class Model:
 
     def setModel(self):
         # loading the model to be trained
-        state = torch.load('Models\\cnn_2.pt')
+        state = torch.load('Models/cnn_2.pt')
         self.model.load_state_dict(state['state_dict'])
         self.optimizer.load_state_dict(state['optimizer'])
 
