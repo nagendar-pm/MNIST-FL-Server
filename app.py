@@ -1,19 +1,7 @@
 from flask import Flask, request, send_file
 from Model_handling_CNN import CNN_2, Model
-import json
 
 app = Flask(__name__)
-# config = {
-#   "apiKey": "AIzaSyCzct6mzQ0wc8-8iR6tYksMKnFD2JuUrYU",
-#   "authDomain": "test-4acc6.firebaseapp.com",
-#   "databaseURL": "https://test-4acc6.firebaseio.com",
-#   "projectId": "test-4acc6",
-#   "storageBucket": "test-4acc6.appspot.com",
-#   "messagingSenderId": "435925488227",
-#   "appId": "1:435925488227:web:3c9792d7e86412db2cde56"
-# }
-# firebase = pyrebase.initialize_app(config)
-# storage = firebase.storage()
 
 model = Model()
 
