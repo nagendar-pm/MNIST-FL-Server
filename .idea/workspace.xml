@@ -70,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625380098602</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Debug commit&quot;">
+      <created>1625380402876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625380402876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +97,7 @@
     <MESSAGE value="&quot;Procfile change&quot;" />
     <MESSAGE value="&quot;Path changes&quot;" />
     <MESSAGE value="&quot;wsgi app&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;wsgi app&quot;" />
+    <MESSAGE value="&quot;Debug commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Debug commit&quot;" />
   </component>
 </project>

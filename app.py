@@ -52,23 +52,3 @@ def train():
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
 
-
-
-# import pyrebase
-#
-# config = {
-#   "apiKey": "AIzaSyCzct6mzQ0wc8-8iR6tYksMKnFD2JuUrYU",
-#   "authDomain": "test-4acc6.firebaseapp.com",
-#   "databaseURL": "https://test-4acc6.firebaseio.com",
-#   "projectId": "test-4acc6",
-#   "storageBucket": "test-4acc6.appspot.com",
-#   "messagingSenderId": "435925488227",
-#   "appId": "1:435925488227:web:3c9792d7e86412db2cde56"
-# }
-#
-# firebase = pyrebase.initialize_app(config)
-# storage = firebase.storage()
-#
-# cloud_path = 'Models/cnn_2.pt'
-# local_path = 'Models/modelB.pt'
-# storage.child(cloud_path).put(local_path)
